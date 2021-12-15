@@ -2,12 +2,7 @@
 body {
     /* feel free to update these css variables for a quick theme */
     
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
-    
+   
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
     /* --color1: hsla(349, 69%, 76%, 1);
@@ -29,6 +24,9 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    background-image: url(../assets/turtle-mystery.webp);
+    background-size: cover;
+    text-align: center;
 }
 
 main {
@@ -88,4 +86,67 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+.la{
+    border: skyblue solid 10px;
+    background-image: url(../assets/doodle-candy.png);
+    background-size: cover;
+    color: fuchsia;
+
+}
+.candies{
+    display: flex;
+    margin-top: 10px;
+    border: solid 10px pink ;
+    background-image: url(../assets/doodle-candy.png);
+    background-size: cover;
+    text-align: center;
+    color: rgb(69, 0, 138);
+}
+
+.ta {
+    border: skyblue solid 10px;
+    background-image: url(../assets/adult-gown.png);
+    background-size: cover;
+    color: red;
+}
+.gowns{
+    display: flex;
+    margin-top: 10px;
+    border: solid 10px royalblue;
+    background-image: url(../assets/adult-gown.png);
+    background-size: cover;
+    text-align: center;
+    color: salmon;
+}
+
+.ma {
+    border: peru solid 10px;
+    background-image: url(../assets/cassette-song.webp);
+    background-size: cover;
+    color: royalblue;
+}
+.songs{
+    display: flex;
+    margin-top: 10px;
+    border: solid 10px purple;
+    background-image: url(../assets/cassette-song.webp);
+    background-size: cover;
+    text-align: center;
+    color: black ;
+}
+.ka {
+    border: yellow solid 10px;
+    background-image: url(../assets/cinema-image.webp);
+    background-size: cover;
+    color: orangered;
+}
+.movies{
+    display: flex;
+    margin-top: 10px;
+    border: solid 10px orange;
+    background-image: url(../assets/cinema-image.webp);
+    background-size: cover;
+    text-align: center;
+    color: black ;
 }
